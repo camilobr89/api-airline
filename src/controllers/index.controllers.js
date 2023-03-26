@@ -5,5 +5,5 @@ export const getPing = async (req, res) => {
     const [rows, fields] = await conn.query('SELECT * FROM flight');
     conn.release();
     res.send(rows);
-    
+     
 }
