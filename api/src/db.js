@@ -3,6 +3,9 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
+
+
+// Crear una conexión a la base de datos
 export const pool = createPool({
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
