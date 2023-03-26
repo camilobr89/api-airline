@@ -30,7 +30,7 @@ git clone git@github.com:camilobr89/api-airline.git
 2. Navega al directorio del proyecto:
 
 ```bash
-cd airline-check-in-simulation
+cd api-airline
 ```
 
 3. Ingresa a la carpeta llamada `api`:
@@ -77,9 +77,7 @@ npm start
 
 El frontend debería abrirse automáticamente en tu navegador. Si no es así, visita `http://localhost:3000` en tu navegador.
 
-#LICENCIA
+## Licencia 
 
-MIT
-
-
+Este proyecto está licenciado bajo la licencia MIT. Para más información, visita [LICENSE](LICENSE).
 
