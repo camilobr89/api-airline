@@ -1,6 +1,38 @@
-# Airline Check-in Simulation
+# Proyecto: Check-In de Airline
 
-Este proyecto simula el proceso de check-in en una aerolínea. Contiene una API REST construida con Node.js y Express, y un frontend sencillo creado con React.
+## Resumen
+
+Este proyecto fue creado para resolver un desafío de programación que consiste en simular el proceso de check-in de una aerolínea. Se nos proporcionó una base de datos con información de vuelos, pasajeros, asientos, compras y tipos de asientos. El objetivo es crear una API REST que permita consultar el estado de un vuelo y asignar asientos a los pasajeros durante el proceso de check-in.
+
+## Descripción del Desafío
+
+El desafío consiste en los siguientes puntos:
+
+1. Conectar a la base de datos proporcionada y asegurarse de que las conexiones inactivas sean manejadas correctamente.
+2. Crear una API REST con un solo endpoint que permita consultar por el ID del vuelo y retornar la simulación del check-in.
+3. Asegurar que los pasajeros menores de edad estén sentados al lado de al menos uno de sus acompañantes mayores de edad.
+4. Tratar de asignar asientos cercanos para los pasajeros que pertenecen a la misma compra.
+5. No asignar asientos de otra clase a pasajeros de clase económica.
+
+## Tecnologías utilizadas
+
+- Node.js
+- Express
+- MySQL
+- React
+
+## Rutas
+
+Para este desafío solo se solicitó crear una ruta que permita consultar el estado de un vuelo y asignar asientos a los pasajeros durante el proceso de check-in. Las rutas creadas son las siguientes:
+
+- GET /flights/:id/passengers
+
+## Puntos importantes
+
+1. Se estableció una conexión a la base de datos y se manejaron las conexiones inactivas para evitar que se cierren.
+2. Se creó una función para asignar asientos a los pasajeros, teniendo en cuenta los puntos mencionados en el desafío.
+3. Se implementó un pequeño frontend en React para probar y visualizar la API de forma más amigable.
+
 
 ## Requisitos previos
 
@@ -76,6 +108,10 @@ npm start
 ```
 
 El frontend debería abrirse automáticamente en tu navegador. Si no es así, visita `http://localhost:3000` en tu navegador.
+
+
+
+
 
 ## Licencia 
 
