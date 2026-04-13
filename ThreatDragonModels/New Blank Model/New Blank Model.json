@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0",
+  "version": "2.6.0",
   "summary": {
     "title": "New Blank Model",
     "owner": "",
@@ -15,7 +15,7 @@
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
-        "version": "2.3.0",
+        "version": "2.6.0",
         "cells": [
           {
             "position": {
